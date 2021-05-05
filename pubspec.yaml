@@ -1,0 +1,44 @@
+name: bmi_calculator_app
+description: An app to calculate the BMI of respective user based on their informations
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+  font_awesome_flutter: ^8.11.0
+  syncfusion_flutter_gauges: ^18.4.42
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - images/
+     - github_images/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans-Italic.ttf
+        - asset: fonts/OpenSans-Bold.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
